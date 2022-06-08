@@ -1,0 +1,21 @@
+.formDiv {
+  height: 1000px;
+  border: 1px solid black;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+input {
+  width: 150px;
+  height: 25px;
+}
+.formDiv > form > button {
+  width: 100px;
+  font-size: 20px;
+  padding: 10px;
+}
